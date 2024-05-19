@@ -17,18 +17,26 @@ header a {
 nav ul{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: right;
 }
 nav ul li{
     font-size: 20px;
     padding: 1%;
 }
 main{
-    background-color: #EEEEE7;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
 }
 footer{
     background-color: #5B5E6B;
-    color: #FEFAFA;
+    color: #f8f6f6;
     display: flex;
     width: 100%;
     position: fixed;
