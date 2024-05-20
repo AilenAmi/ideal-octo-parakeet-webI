@@ -35,17 +35,17 @@
             <h1>Calculá el IVA</h1>
             <form action="">
                 <p><label for="alicuota">Seleccioná la alicuota:
-                    <select>
-                        <option value="10,5">10,5%</option>
+                    <select id = "alicuota1">
+                        <option value="10.5">10,5%</option>
                         <option value="21">21%</option>
                         <option value="27">27%</option>
                     </select>
                 </label></p>
-                <p><label for="neto">Ingresá el valor sin impuestos: <input type="number" id="valor neto">
+                <p><label for="neto">Ingresá el valor sin impuestos: <input type="number" id="valorNeto">
                 </label></p>
-                <p><label for="iva">IVA: 
+                <p><label id = "etiqueta-iva"for="iva">IVA: 
                 </label></p>
-                <p><label for="tota">Total con IVA:
+                <p><label id = "etiqueta-Tiva"for="tota">Total con IVA:
                 </label></p>
             </form>
         </section>
@@ -64,5 +64,6 @@
         </div>
         <!-- Se podría agregar un div de copyright, he visto que se estila -->
     </footer>
+<script src="codigo.js"></script>
 </body>
 </html>
