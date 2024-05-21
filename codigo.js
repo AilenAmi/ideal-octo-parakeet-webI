@@ -1,12 +1,15 @@
-let alicuota = document.getElementById("alicuota1");
+let alicuota = document.getElementById("alicuota");
 let etiqueta = document.getElementById("etiqueta-iva");
 let etiqueta1 = document.getElementById("etiqueta-Tiva");
 let neto = document.getElementById("valorNeto");
-let iva = document.createElement("p");
-let tIva = document.createElement("p");
+let submit =document.getElementById("boton");
+let iva = document.createElement("span");
+let tIva = document.createElement("span");
 
 
-neto.onchange = e => {    
+
+submit.onclick = e =>{
+    e.preventDefault();
     iva.innerHTML = (neto.value * (alicuota.value/100)).toFixed(2);
     tIva.innerHTML = (neto.value * (alicuota.value/100) + neto.value*1).toFixed(2);
 }
@@ -25,6 +28,7 @@ let servicios = document.getElementById("servicios");
 let contador = 0;
 
 document.Carrusel.src = imagenes[contador]
+
 servicios.append(botonAtras);
 servicios.append(botonAdelante);
 

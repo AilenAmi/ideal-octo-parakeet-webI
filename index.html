@@ -30,23 +30,24 @@
         </section>
         <section id="servicios">
             <h1>Nuestros servicios</h1>
-            <div><img name="Carrusel" ></div>
+            <div><img class = "Carrusel" name="Carrusel" ></div>
         </section>
         <section id="calculadora">
             <h1>Calculá el IVA</h1>
             <form action="">
                 <p><label for="alicuota">Seleccioná la alicuota:
-                    <select id = "alicuota1">
+                    <select id = "alicuota">
                         <option value="10.5">10,5%</option>
                         <option value="21">21%</option>
                         <option value="27">27%</option>
                     </select>
                 </label></p>
-                <p><label for="neto">Ingresá el valor sin impuestos: <input type="number" id="valorNeto">
+                <p><label for="valorNeto">Ingresá el valor sin impuestos: <input type="number" id="valorNeto">
                 </label></p>
-                <p><label id = "etiqueta-iva"for="iva">IVA: 
+                <p><button id = "boton">Calcular</button></p>
+                <p><label id = "etiqueta-iva" for = "etiqueta-iva">IVA: 
                 </label></p>
-                <p><label id = "etiqueta-Tiva"for="tota">Total con IVA:
+                <p><label id = "etiqueta-Tiva"for = "etiqueta-Tiva">Total con IVA:
                 </label></p>
             </form>
         </section>
