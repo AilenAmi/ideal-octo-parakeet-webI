@@ -27,11 +27,12 @@
     </header>
     <main>
         <section id="hero">
-            <img src="img/Banner de LinkedIn Trabajo Sencillo.png" alt="Estudio Contable Imberti Gimenez">
+            <img class="imag" src="img/Banner de LinkedIn Trabajo Sencillo.png" alt="Estudio Contable Imberti Gimenez">
         </section>
         <section id="about">
             <h1>Quiénes somos</h1>
-            <p>...</p>
+            <p>Te invitamos a conocernos...</p>
+            <p><a href="about/about.html" class="leer-mas">Leer más</a></p>
         </section>
         <section id="servicios">
             <h1>Nuestros servicios</h1>
@@ -40,7 +41,9 @@
         <section id="ultimo-articulo">
             <h1>Leé el último artículo de nuestro blog</h1>
             <article>
-                <img src="img/flat-lay-real-estate-concept.jpg" alt="Concepto de inversiones">
+                <div class="imag">
+                    <img src="img/flat-lay-real-estate-concept.jpg" alt="Concepto de inversiones">
+                </div>
                 <div class="contenido">
                     <h2>La Importancia de Invertir: Construyendo un Futuro Financiero Seguro</h2>
                     <p>Invertir no es solo una estrategia financiera, sino una herramienta
@@ -48,7 +51,8 @@
                         estés planificando tu jubilación, ahorrando para la educación de tus hijos,
                         o construyendo un fondo de emergencia, las inversiones inteligentes
                         pueden transformar tus metas financieras en realidades tangibles...</p>
-                    <a href="blog/blog.html" class="leer-mas">Leer más</a>
+                    <p><a href="blog/blog.html" class="leer-mas">Leer más</a></p>
+                        
                 </div>
             </article>
         </section>
@@ -56,22 +60,27 @@
         </section>
         <section id="calculadora">
             <h1>Calculá el IVA</h1>
-            <form action="">
-                <p><label for="alicuota">Seleccioná la alicuota:
-                        <select id="alicuota">
-                            <option value="10.5">10,5%</option>
-                            <option value="21">21%</option>
-                            <option value="27">27%</option>
-                        </select>
-                    </label></p>
-                <p><label for="valorNeto">Ingresá el valor sin impuestos: <input type="number" id="valorNeto">
-                    </label></p>
-                <p><button id="boton">Calcular</button></p>
-                <p><label id="etiqueta-iva" for="etiqueta-iva">IVA:
-                    </label></p>
-                <p><label id="etiqueta-Tiva" for="etiqueta-Tiva">Total con IVA:
-                    </label></p>
-            </form>
+            <p>Utilizá nuestra calculadora de IVA para determinar fácilmente cuánto debes 
+                añadir al precio de tus productos y cumplir con tus obligaciones fiscales de manera precisa y rápida.</p>
+            <div class="container">
+                <h2>Calculadora de IVA</h2>
+                <form action="">
+                    <p><label for="alicuota">Seleccioná la alicuota:
+                            <select id="alicuota">
+                                <option value="10.5">10,5%</option>
+                                <option value="21">21%</option>
+                                <option value="27">27%</option>
+                            </select>
+                        </label></p>
+                    <p><label for="valorNeto">Ingresá el valor sin impuestos: <input type="number" id="valorNeto">
+                        </label><button id="boton">Calcular</button></p>
+                    <p><label id="etiqueta-iva" for="etiqueta-iva">IVA:
+                        </label></p>
+                    <p><label id="etiqueta-Tiva" for="etiqueta-Tiva">Total con IVA:
+                        </label></p>
+                </form>
+                <br>
+            </div>
         </section>
     </main>
     <footer>
