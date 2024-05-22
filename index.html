@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio Contable Imberti Gimenez</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <header>
         <nav>
@@ -18,7 +23,7 @@
                 <li> <a href="#calculadora">Calcular IVA</a></li>
             </ul>
         </nav>
-    
+
     </header>
     <main>
         <section id="hero">
@@ -30,25 +35,42 @@
         </section>
         <section id="servicios">
             <h1>Nuestros servicios</h1>
-            <div><img class = "Carrusel" name="Carrusel" ></div>
+            <div><img class="Carrusel" name="Carrusel"></div>
+        </section>
+        <section id="ultimo-articulo">
+            <h1>Leé el último artículo de nuestro blog</h1>
+            <article>
+                <img src="img/flat-lay-real-estate-concept.jpg" alt="Concepto de inversiones">
+                <div class="contenido">
+                    <h2>La Importancia de Invertir: Construyendo un Futuro Financiero Seguro</h2>
+                    <p>Invertir no es solo una estrategia financiera, sino una herramienta
+                        esencial para asegurar un futuro económico sólido y estable. Ya sea que
+                        estés planificando tu jubilación, ahorrando para la educación de tus hijos,
+                        o construyendo un fondo de emergencia, las inversiones inteligentes
+                        pueden transformar tus metas financieras en realidades tangibles...</p>
+                    <a href="blog/blog.html" class="leer-mas">Leer más</a>
+                </div>
+            </article>
+        </section>
+
         </section>
         <section id="calculadora">
             <h1>Calculá el IVA</h1>
             <form action="">
                 <p><label for="alicuota">Seleccioná la alicuota:
-                    <select id = "alicuota">
-                        <option value="10.5">10,5%</option>
-                        <option value="21">21%</option>
-                        <option value="27">27%</option>
-                    </select>
-                </label></p>
+                        <select id="alicuota">
+                            <option value="10.5">10,5%</option>
+                            <option value="21">21%</option>
+                            <option value="27">27%</option>
+                        </select>
+                    </label></p>
                 <p><label for="valorNeto">Ingresá el valor sin impuestos: <input type="number" id="valorNeto">
-                </label></p>
-                <p><button id = "boton">Calcular</button></p>
-                <p><label id = "etiqueta-iva" for = "etiqueta-iva">IVA: 
-                </label></p>
-                <p><label id = "etiqueta-Tiva"for = "etiqueta-Tiva">Total con IVA:
-                </label></p>
+                    </label></p>
+                <p><button id="boton">Calcular</button></p>
+                <p><label id="etiqueta-iva" for="etiqueta-iva">IVA:
+                    </label></p>
+                <p><label id="etiqueta-Tiva" for="etiqueta-Tiva">Total con IVA:
+                    </label></p>
             </form>
         </section>
     </main>
@@ -59,13 +81,14 @@
             <p>Mail: estudioimbertigimenez@yahoo.com.ar</p>
         </div>
         <div id="redes">
-            <a href="http://www.facebook.com"><img src="Buttons/Facebook.png"/></a>
-            <a href="http://www.instagram.com"><img src="Buttons/intagram.png"/></a>
-            <a href="http://www.ar.linkedin.com"><img src="Buttons/Linkedin.png"/></a>
-            <a href="http://www.youtube.com"><img src="Buttons/youtube.png"/></a>
+            <a href="http://www.facebook.com"><img src="Buttons/Facebook.png" /></a>
+            <a href="http://www.instagram.com"><img src="Buttons/intagram.png" /></a>
+            <a href="http://www.ar.linkedin.com"><img src="Buttons/Linkedin.png" /></a>
+            <a href="http://www.youtube.com"><img src="Buttons/youtube.png" /></a>
         </div>
         <!-- Se podría agregar un div de copyright, he visto que se estila -->
     </footer>
-<script src="codigo.js"></script>
+    <script src="codigo.js"></script>
 </body>
+
 </html>
