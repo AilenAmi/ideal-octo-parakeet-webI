@@ -9,6 +9,7 @@
 header{
     background-color: #4156A0;
     position: sticky;
+    top: 0;
     
 }
 header a {
