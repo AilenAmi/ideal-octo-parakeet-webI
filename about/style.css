@@ -38,27 +38,37 @@ main p {
     font-size: 22px;
     text-align: left;
 }
-main h1, h2{
+main h1, h2, h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+h2{
+    text-align: left;
+    font-size: 30px;
+}
+#staff{
+   display: flex;
+}
 
 footer{
     background-color: #5B5E6B;
     color: #f8f6f6;
-    display: flex;
+    display: flexbox;
     width: 100%;
-    position: fixed;
+    position: static;
     bottom: 0px;
     padding: 10px;
-    
 }
+
 #redes{
+    background-color: #5B5E6B;
     position: fixed;
     bottom: 0px;
-    right: 10px; 
+    right: 10px;
 }
