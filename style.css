@@ -94,6 +94,10 @@ h2{
 .container h2{
     text-align: center;
 }
+#errores{
+    color:white;
+    font-size: 15px;
+}
 footer{
     background-color: #5B5E6B;
     color: #f8f6f6;
